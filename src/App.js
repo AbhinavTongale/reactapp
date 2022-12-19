@@ -1,12 +1,21 @@
 function App() {
-  let project = "My React Project";
-  let username = "Abhinav ";
+  // Data Members
+  let project = "Counter Application";
+  let btnValue = "Click Meeeeeee";
 
-  // JSX => HTML CSS
+  // Member :: Type is Functions
+  let clickMe = () => alert();
+  let incrment = () => {};
+  let decrement = () => {};
+
+  // JSX
   return (
     <div>
       <h1> {project} </h1>
-      <h1>Hello$ {username} $</h1>
+      <h1> </h1>
+      <input type="button" value={btnValue} onClick={clickMe} />
+
+      <input type="button" value="Increment" onClick={incrment} />
     </div>
   );
 }
