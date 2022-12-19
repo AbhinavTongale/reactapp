@@ -1,6 +1,6 @@
 function App() {
   let project = "My React Project";
-  let username = "Abhinavvv ";
+  let username = "Abhinav ";
 
   // JSX => HTML CSS
   return (
